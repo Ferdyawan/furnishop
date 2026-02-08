@@ -1,5 +1,6 @@
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
+import kitchenImage from '../assets/kitchen.png';
 
 const Features = () => {
   return (
@@ -58,7 +59,7 @@ export const BestFurnitureSection = () => {
         </div>
         <div className="flex-1 w-full order-1 lg:order-2">
           <img 
-            src="src/assets/kitchen.png" 
+            src={kitchenImage} 
             alt="Kitchen" 
             className="rounded-tr-[50px] rounded-bl-[50px] w-full h-[400px] object-cover shadow-xl"
           />
